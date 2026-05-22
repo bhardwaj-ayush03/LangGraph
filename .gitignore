@@ -1,0 +1,69 @@
+.directory
+# Virtual Environment
+venv/
+.env/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# LangChain / LangGraph temp files
+*.sqlite
+*.db
+
+# Ollama / model cache (optional)
+models/
+*.gguf
+
+# ChromaDB / Vector DB
+chroma/
+chromadb/
+*.parquet
+
+# FAISS
+faiss_index/
+
+# Weaviate local storage
+weaviate/
+
+# Temporary files
+temp/
+tmp/
+
+# PDF/Text data (optional)
+data/
+uploads/
+
+# Secrets
+secrets.json
+credentials.json
+
+# Streamlit
+.streamlit/secrets.toml
